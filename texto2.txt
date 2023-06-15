@@ -1,1 +1,7 @@
 agregando texto...
+
+
+
+
+No se puede hacer emerge
+Este es el segundo intento para hacer un merge de la rama-desarrollo01 a main
