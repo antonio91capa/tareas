@@ -1,7 +1,13 @@
 agregando texto...
 
-
-
-
 No se puede hacer emerge
+
 Este es el segundo intento para hacer un merge de la rama-desarrollo01 a main
+Pasos para hacer merge de una rama secundaria a la rama main
+1.- git checkout -b ramasecundaria1		(crea una rama "ramasecundaria1" y la extrae)
+2.- Modificar algun archivo
+3.- git add <nombrearchivo>
+4.- git commit -m "algun mensaje"
+5.- git checkout main		(se cambia la rama main)
+6.- git merge ramasecundaria1	(fusiona lo que tiene tiene ramasecundaria1 a la rama main)
+7.- git push origin main		(sube los cambios de la rama main al repositorio remoto)
